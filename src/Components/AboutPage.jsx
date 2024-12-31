@@ -10,7 +10,7 @@ const About = () => {
 
 
             <div className="gap-8 grid grid-cols-1 lg:grid-cols-2 mb-12">
-                <div className="relative bg-gray-800 p-4 rounded-lg" >
+                <div className="relative bg-gray-800 p-4 rounded-lg transform transition duration-300 hover:scale-110" >
                     <h3 className="mb-1 font-bold text-xl title-color">Personal Details</h3>
                     <ul className="ml-4">
                         <li className="mb-1">
@@ -41,8 +41,8 @@ const About = () => {
                         </li>
                     </ul>
                 </div>
-                <div className="relative z-10 bg-gray-800 p-4 rounded-lg" >
-                    <h3 className="mb-2 font-bold text-xl head-color">🎓 Education</h3>
+                <div className="relative z-10 bg-gray-800 p-4 rounded-lg transform transition duration-30 hover:scale-110" >
+                    <h3 className="mb-2 font-bold text-xl title-color">🎓 Education</h3>
                     <pre className="bg-gray-900 p-4 rounded-lg leading-loose whitespace-pre-wrap title-color">
   <p className="text-sm sm:text-lg">
     {`
